@@ -1,0 +1,83 @@
+body{
+	top: 0;
+	margin: 0;
+	padding: 0;
+	left: 0;
+}
+
+nav{
+	
+	background-image: linear-gradient( to left,#0059b3,#009933);
+}
+.navbar a{
+	font-size: 20px;
+	color: white;
+	letter-spacing: 2px;
+	font-family: Source Sans Pro, Arial, sans-serif;
+}
+.navbar a:hover{border-bottom: 1px solid white;}
+.nav-brand{
+	font-family:cursive, serif;
+	font-size: 20px;
+	color: #F1C40F;
+	font-weight: 700;
+
+}
+.navbar ul li{
+	margin-left: 3em;
+	text-align: center;
+}
+
+#about{
+	margin-top: 10%;
+}
+h1{
+	font-family: Georgia, serif;
+	font-weight: 900;
+}
+p{
+	line-height: 2em;
+	font-size: 20px;
+	font-family: Georgia, serif;
+}
+span{
+	padding-left:30px;
+}
+i{
+	margin: 10px 10px;
+}
+.front img{
+	border-radius: 50%;
+	box-shadow: 10px 10px 5px #5499C7;
+	border: 2px solid #5499C7;
+}
+
+section{
+	margin-bottom: 5%;
+}
+.card{
+	height: 500px;
+	width: 100%;
+	margin: 1em;
+	box-shadow: 10px 10px 20px grey;
+}
+.btn{
+	width: 80%;
+	margin-left: 10%;
+}
+.btn:hover{
+	background-color: #009933;
+}
+.inner{
+	overflow: hidden;
+}
+.inner img{
+	transition: all 2s ease
+}
+.inner img:hover{
+	transform:scale(1.2);
+}
+#demo{
+	height: 100px;
+}
+
